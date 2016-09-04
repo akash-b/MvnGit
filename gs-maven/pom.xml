@@ -32,4 +32,20 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+    	<dependency>
+    		<groupId>junit</groupId>
+    		<artifactId>junit</artifactId>
+    		<scope>test</scope>
+    	</dependency>
+    </dependencies>
+    <dependencyManagement>
+    	<dependencies>
+    		<dependency>
+    			<groupId>junit</groupId>
+    			<artifactId>junit</artifactId>
+    			<version>4.12</version>
+    		</dependency>
+    	</dependencies>
+    </dependencyManagement>
 </project>
